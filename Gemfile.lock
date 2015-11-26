@@ -84,3 +84,6 @@ DEPENDENCIES
   jekyll (= 2.5.3)
   jekyll-sitemap
   octopress (~> 3.0)
+
+BUNDLED WITH
+   1.10.4
