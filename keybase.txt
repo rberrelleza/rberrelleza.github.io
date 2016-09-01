@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/rberrelleza
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://ramiroberrelleza.com
+  * I am rberrelleza (https://keybase.io/rberrelleza) on keybase.
+  * I have a public key ASA5RXfTEo95nIGn71A7JGCl3Wugxq6_yg_vO7U0J7291wo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012ca11571e7b319dfd1ec9c358dc297059fe8b8a6a413de851dbad894484e2e3d0a",
+            "host": "keybase.io",
+            "kid": "0120394577d3128f799c81a7ef503b2460a5dd6ba0c6aebfca0fef3bb53427bdbdd70a",
+            "uid": "163e52251cb5cca460133ee323ad2d19",
+            "username": "rberrelleza"
+        },
+        "service": {
+            "hostname": "ramiroberrelleza.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1472675867,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1472675798,
+        "hash": "28cc16059a44b370d9b369ee713fcc1dd2993f1531337502d486f9b2898001c36a52324749fec56f1f0fd2d15c40c4856a50aa32ba25265b46a14016a1defda8",
+        "seqno": 612617
+    },
+    "prev": "6e499e5b3e4ff09f81bba90c83b3e513f2754ddb7b587a67c0de2c6581385182",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgOUV30xKPeZyBp+9QOyRgpd1roMauv8oP7zu1NCe9vdcKp3BheWxvYWTFAv57ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMmNhMTE1NzFlN2IzMTlkZmQxZWM5YzM1OGRjMjk3MDU5ZmU4YjhhNmE0MTNkZTg1MWRiYWQ4OTQ0ODRlMmUzZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMzk0NTc3ZDMxMjhmNzk5YzgxYTdlZjUwM2IyNDYwYTVkZDZiYTBjNmFlYmZjYTBmZWYzYmI1MzQyN2JkYmRkNzBhIiwidWlkIjoiMTYzZTUyMjUxY2I1Y2NhNDYwMTMzZWUzMjNhZDJkMTkiLCJ1c2VybmFtZSI6InJiZXJyZWxsZXphIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJyYW1pcm9iZXJyZWxsZXphLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTcifSwiY3RpbWUiOjE0NzI2NzU4NjcsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ3MjY3NTc5OCwiaGFzaCI6IjI4Y2MxNjA1OWE0NGIzNzBkOWIzNjllZTcxM2ZjYzFkZDI5OTNmMTUzMTMzNzUwMmQ0ODZmOWIyODk4MDAxYzM2YTUyMzI0NzQ5ZmVjNTZmMWYwZmQyZDE1YzQwYzQ4NTZhNTBhYTMyYmEyNTI2NWI0NmExNDAxNmExZGVmZGE4Iiwic2Vxbm8iOjYxMjYxN30sInByZXYiOiI2ZTQ5OWU1YjNlNGZmMDlmODFiYmE5MGM4M2IzZTUxM2YyNzU0ZGRiN2I1ODdhNjdjMGRlMmM2NTgxMzg1MTgyIiwic2Vxbm8iOjksInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAherOYfGv+zFhF5k0XXwl3fn3LzUAlcED3oAcBwmeB2xAY2L+3jxiAJPyalsWz8A791ffh6Gkt31i4qGsCnDgAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAP4PiHOSckOurq+a4lMz80eQ0Z1TcvXk3N4FQfERvoEo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rberrelleza
+
+==================================================================
+
