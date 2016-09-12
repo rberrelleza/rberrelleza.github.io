@@ -31,6 +31,7 @@ comments: false
   </header>
   <div class="entry-content">
     {{ post.content }}
+    {% include social-share.html post_url=post.url %}
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
 {% endfor %}
