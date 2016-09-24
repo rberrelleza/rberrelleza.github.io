@@ -74,6 +74,11 @@ task :new_page, :title do |t, args|
   end
 end
 
+desc "Run jekyll"
+task :run do
+  sh "jekyll serve"
+end
+
 task :default => [:spec]
 
 def get_stdin(message)
