@@ -14,10 +14,11 @@ owner:
   name:           Ramiro Berrelleza
   avatar:         ramiro.jpg
   bio:            "Yet another developer from San Francisco"
-  email:          rberrelleza@gmail.com
+  email:          rberrelleza at gmail
   # Social networking links used in footer. Update and remove as you like.
   twitter: rberrelleza
   github: rberrelleza
+  keybase: rberrelleza
 
 # Background image to be tiled on all pages
 background:
