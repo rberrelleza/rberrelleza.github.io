@@ -20,7 +20,7 @@ An Amazon Echo skill that helps you figure out when the next MUNI is coming.
 ## fiveoneone
 
 Python library to consume transit data from http://511.org/
-You can get it [from github](https://github.com/rberrelleza/511-transit), or install it [from pypi](pypi.python.org/pypi/fiveoneone)
+You can get it [from github](https://github.com/rberrelleza/511-transit), or install it [from pypi](https://pypi.python.org/pypi/fiveoneone)
 
 ## nose-xunitmp
 
