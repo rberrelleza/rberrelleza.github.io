@@ -26,7 +26,7 @@ task :new_post, :title do |t, args|
   if File.exist?(filename)
     abort("rake aborted!") if ask("#{filename} already exists. Do you want to overwrite?", ['y', 'n']) == 'n'
   end
-  tags = get_stdin("Enter tags to classify your post (comma separated): ")
+  #tags = get_stdin("Enter tags to classify your post (comma separated): ")
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
     post.puts "---"
