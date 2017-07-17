@@ -14,8 +14,8 @@ git filter-branch lets you to rewrite your commit history, and it has a very pow
 {% highlight bash %}
  git filter-branch -f --env-filter '
 
-OLD_EMAIL="rberrelleza@olddomain.com"
-CORRECT_EMAIL="rberrelleza@newdomain.com"
+OLD_EMAIL="old@example.com"
+CORRECT_EMAIL="new@example.com"
 
 if [ "$GIT_AUTHOR_EMAIL" = "$OLD_EMAIL" ]
 then
@@ -30,6 +30,13 @@ fi
 {% endhighlight %}
 
 When you run this script, git will go over every commit, compare the author, and fix it if needed. After you're done, review your history, and if you're happy with it, force push your changes (since you're and you're all done. 
+
+I ended up making this a bit more generic, and adding it as a git alias for future use on my ~/.gitconfig:
+
+{% highlight bash %}
+[alias]
+ change-commits = "!fix() { var=$1; old=$2; new=$3; shift 3; git filter-branch --env-filter \"if [[ \\\"$`echo $var`\\\" = '$old' ]]; then export $var='$new'; fi\" $@; }; fix"
+{% endhighlight %}
 
 Do keep in mind that this script is changing your commit history, so DO NOT RUN THIS ON A SHARED REPOSITORY, unless you really know what you are doing. 
 
