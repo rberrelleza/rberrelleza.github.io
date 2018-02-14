@@ -31,7 +31,7 @@ virtual devices, and custom orchestrations.
 It seems lke you can run openHAB on a [rasperry pi](https://www.makeuseof.com/tag/getting-started-openhab-home-automation-raspberry-pi/), but I already have a server running at home,
 and went the lazy way by using their [docker container](https://hub.docker.com/r/openhab/openhab/):
 
-{% highlight yml %}
+```yml
 version: "2"
 services:
   openHAB:
@@ -48,15 +48,15 @@ services:
       - './opt/openHAB/userdata:/openHAB/userdata'
       - './opt/openHAB/conf:/openHAB/conf'
     command: "server"
-{% endhighlight yml %}
+```
 
 Before starting it, I ran the following commands to create the initial directory structure. This was so that I wouldn't lose my configurations
 when relaunching my container.
 
-{% highlight bash %}
+```bash
 mkdir -p $(pwd)/opt/openHAB/userdata
 mkdir -p $(pwd)/opt/openHAB/conf
-{% endhighlight bash %}
+```
 
 After this, I just started my docker container, waited a couple of minutes, and my openHAB instance was up and running. Browse to http://${fqdn}:8080,
 and follow the setup instructions. I went with the most basic option since I only wanted the basics on it.
@@ -73,9 +73,10 @@ Make sure that you can control all your devices from the openHAB UI before going
 
 # Create your virtual switch
 To add our virtual switch, go to $(pwd)/openHAB/opt/openHAB/conf/items, and create a file called home.items with the following content:
-{% highlight bash %}
+
+```bash
 Switch  MovieToggler     "Movie Time Toggle" [ "Switchable" ]
-{% endhighlight bash %}
+```
 
 The line follows the format Type Name FriendlyName ListOfCapabilities. Feel free to customize the name and friendly name if you want. Make sure the file with the '.items' extension
 or openHAB won't pick it.
@@ -87,7 +88,7 @@ was very handy for this. Just browse to http://{$fqd}:8080/rest/items to get a f
 
 To create the rule, go to $(pwd)/openHAB/opt/openHAB/conf/rules, and create a file called home.rules with the following content:
 
-{% highlight bash %}
+```bash
 rule "Movie time ON"
 when
   Item MovieToggler received command ON
@@ -103,16 +104,17 @@ then
   sendCommand(MY_NIGHTSTAND_DEVICE_NAME, OFF)
   sendCommand(MY_LAMP_DEVICE_NAME,  ON)
 end
-{% endhighlight bash %}
+```
 
 Before saving the file, don't forget to update the commands with your device id. Make sure the file with the '.rules' extension or openHAB won't pick it.
 
 
 You can do more complex lookups and rules, but I decided to keep simple and straigh forward. To test that your rule works, you can do the following POST request:
-{% highlight bash %}
+
+```bash
 curl --header "Content-Type: text/plain" -XPOST  http://${fqdn}:8080/rest/items/MovieToggler --data "OFF"
 curl --header "Content-Type: text/plain" -XPOST  http://${fqdn}:8080/rest/items/MovieToggler --data "ON"
-{% endhighlight bash %}
+```
 
 If everything is setup correctly, you should see the two lights toggle when you send the request.
 

@@ -13,16 +13,16 @@ never run it locally).
 Last week, I had some time on my hands, and decided to look a bit into it. My obvious question was, "why does it take this long?". Fortunately, our test driver
 of choice [nose](https://nose.readthedocs.io), includes how long each test takes to run:
 
-{% highlight xml %}
+```xml
 <testcase classname="test.integration.test_api_app.AppRest" name="test_info_requires_internal" time="0.003"/>
 <testcase classname="test.integration.test_api_app.AppRest" name="test_info_requires_internal_no_query_param" time="0.004"/>
 <testcase classname="test.integration.test_api_app.AppRest" name="test_info_requires_internal_no_query_param_with_header" time="0.003"/>
-{% endhighlight %}
+```
 
 However, they are sorted by execution time, and not by time. Well, we code mostly in python, and if python is good for one thing,
 is at string manipulation, analysis and scripting:
 
-{% highlight python %}
+```python
 import argparse
 import sys
 import xml.etree.ElementTree as ET
@@ -50,14 +50,14 @@ for child in tree:
     sortchildrenby(child, args.field)
 
 print(ET.tostring(tree, encoding='utf8', method='xml'))
-{% endhighlight %}
+```
 
 With this script, I was able to post-process my test result files and discovered that 4 of our tests was taking about 10% of
 the execution time of the entire suite. ![facepalm](/images/facepalm.png)
 
-{% highlight bash %}
+```
 cat ~/Downloads/test-results.xml | python junit-sort.py
-{% endhighlight %}
+```
 
 Hope it helps!
 

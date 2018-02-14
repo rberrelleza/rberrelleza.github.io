@@ -17,7 +17,7 @@ perfect excuse.
 The getting started guide asked for node, redis, and ngrok. I didn't have the first two installed on my work machine, and I didn't want to deal with 
 the hassle of installing it, configuring it, etc. Why do all that if I already have docker installed? Instead, I wrote this docker-compose file:
 
-{% highlight yml %}
+```yml
 version: '2'
 services:
     redis:
@@ -35,7 +35,7 @@ services:
         - "8080:8080"
         depends_on:
         - redis
-{% endhighlight %}
+```
 
 With this, running ```docker-compose --build up``` gave me a fully functional working environment in no time. As soon as we started to write our addon code
 we started to see a big problem in our workflow. Every time we wanted to try the new code, we had to stop the containers, run ```docker-compose --build up```
@@ -45,7 +45,7 @@ Waiting 3 seconds per debugging cycle it's not a lot, but it gets annoying very 
 Node community had already solved that problem with [nodemon](https://github.com/remy/nodemon). 
 I followed the instructions and updated my package.json script to look like this:
 
-{% highlight json %}
+```json
 {
   "name": "hello-world",
   "version": "0.0.1",
@@ -73,7 +73,7 @@ I followed the instructions and updated my package.json script to look like this
     "nodemon": "^1.10.0"
   }
 }
-{% endhighlight %}
+```
 
 Restarted my containers, wrote some more code, saved my files, and nothing happened. nodemon refused to do its magic. I spent a few minutes reading
 the documentation, double checking all my configurations, restarting my containers and the docker service a few times (hey, you never know) until it 
@@ -83,7 +83,7 @@ on my machine.
 Added the source code as docker volumes on my docker-compose file, restarted the containers, and nodemon started to reload the process every time 
 I saved a file.
 
-{% highlight yml %}
+```yml
 version: '2'
 services:
     redis:
@@ -107,7 +107,7 @@ services:
         - ./public:/usr/src/app/public
         - ./views:/usr/src/app/views
         - ./lib:/usr/src/app/lib
-{% endhighlight %}
+```
 
 Once we had this up and running, our workflow became much more efficient. Every time we reached a certain milestone, it was only a matter of pushing
 the container into our registry and let the container service reload our containers in the production instances, hands-free. ![success](/images/success.png) 

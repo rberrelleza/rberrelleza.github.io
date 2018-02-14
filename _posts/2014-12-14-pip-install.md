@@ -11,7 +11,7 @@ One of the less well known features of pip is the fact that you can install dire
 
 The first thing to do is to Add a `setup.py` file to the root of your repository. Setup.py is the setup script of your module, and it includes the definition and metadata required by pypi to install a library locally. You can review [the full specification](https://docs.python.org/2/distutils/setupscript.html) later, but for now, you can use this basic template:
 
-{% highlight python %}
+```python
 """
 My module
 -------------
@@ -45,7 +45,7 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules'
     ]
 )
-{% endhighlight %}
+```
 
 The main parts here are the `packages` and `dependencies` sections. These tell pip which packages come, and which dependencies need to be installed. It's very handy to include the dependencies so that your fellow developers don't have to install something else manually.
 
@@ -74,7 +74,7 @@ pip install -e git+git@github.com:rberrelleza/repo.git@COMMIT_HASH#egg=module_na
 ## Handle dependencies programatically
 When I was developing my module, one thing that stuck out was that I had to list the dependencies twice, once in the setup.py, and one in the requirements.txt. Duplicated files tend to get stale, and in python the requirements.txt file is pretty much standard, so I found it much simpler to load them programmatically by using the `pip.req.parse_requirements` function (lines 11-13):
 
-{% highlight python %}
+```python
 """
 My module
 -------------
@@ -112,14 +112,14 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules'
     ]
 )
-{% endhighlight %}
+```
 
 ## Handle static files
 You will notice that in line 11 of the gist above I'm referring to the 'requirements.txt' file of my module. Physical files are not included by default, and your installation will fail because of this. There are several ways of doing this, but the simplest I found was to include a ```MANIFEST.in```file along with your ```setup.py``` file in the root of your repo. With this you can include your README.md, data files, your documentation, etc... My manifest looked like this:
 
-{% highlight bash %}
+```
 include requirements.txt
 include README.md
-{% endhighlight %}
+```
 
 Hope it helps!

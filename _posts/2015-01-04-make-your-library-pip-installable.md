@@ -13,7 +13,7 @@ The first thing to do is to create a [pypi account](https://pypi.python.org/pypi
 
 We're going to create a settings file for our pypi credentials, so we don't have to type the urls and usernames again and again. Create a ~/.pypirc file like this one (replace my username with yours):
 
-{% highlight python %}
+```python
 [distutils]
 index-servers =
     pypi
@@ -28,7 +28,7 @@ password = MY_PASSWORD
 repository = https://testpypi.python.org/pypi
 username = MY_USERNAME
 password = MY_PASSWORD
-{% endhighlight %}
+```
 
 *I chose to set have the password there for simplicity. If you don't think this is secure enough, you can remove the password lines and instead provide them manually everytime you run the upload commands*
 
@@ -52,11 +52,11 @@ twine upload --repository test dist/YOUR_MODULE-YOUR_VERSION.tar.gz
 
 Once the file is upload, install it locally at least once, to make sure everything works as expected:
 
-{% highlight bash %}
+```
 virtualenv pip_test --clear
 source pip_test/bin/activate
 pip install -i https://testpypi.python.org/pypi YOUR_MODULE==YOUR_VERSION
-{% endhighlight %}
+```
 
 If everything works fine, you will have a virtual environment with your module. I recommend you double check the version installed and run some tests, just to be sure. 
 

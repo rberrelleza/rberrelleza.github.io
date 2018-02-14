@@ -7,7 +7,7 @@ categories: posts
 
 Sharing files via HipChat is a very useful feature. However, it's on my opinion,  one of the [hardest APIs to use](https://www.hipchat.com/docs/apiv2/method/share_file_with_room). Here's an example of how to do it in python:
 
-{% highlight python %}
+```python
 #!/bin/python
 
 import argparse
@@ -61,6 +61,6 @@ if __name__ == '__main__':
     user_options = parser.parse_args()
 
     share_file_with_room(user_options.api_url, user_options.room, user_options.token, user_options.file_path, user_options.message)
-{% endhighlight %}
+```
 
 Hope it helps!
