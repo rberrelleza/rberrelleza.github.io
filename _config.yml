@@ -7,7 +7,7 @@ words_per_minute: 200
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 #url: "" # the base hostname & protocol for your site
-url: "http://ramiroberrelleza.com" # the base hostname & protocol for your site
+url: "https://ramiroberrelleza.com" # the base hostname & protocol for your site
 
 # Owner/author information
 owner:
