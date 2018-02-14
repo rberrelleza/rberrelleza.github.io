@@ -1,0 +1,10 @@
+version: "3"
+services:
+  blog:
+    build: .
+    volumes:
+      - .:/usr/src/app
+    environment:
+      - GITHUB_GEM_VERSION=177
+    ports:
+      - 4000:4000 
