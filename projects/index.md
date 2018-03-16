@@ -2,8 +2,13 @@
 layout: page
 title: Projects
 comments: false
-modified: 2017-07-09
+modified: 2018-03-16
 ---
+
+## i2kit
+i2kit is a cli tool to deploy container based applications on the cloud. The tool will create a minimalistic, linuxkit-based VM with the application containers, generate a cloudformation template based on a yaml manifest and launch it. The goal is to offer the same type of features that kubernetes and docker's universal control plane offer, but with cloud native services, and without requiring a cluster.
+
+[Available on github](https://github.com/pchico83/i2kit)
 
 
 ## SE Radio podcast player
