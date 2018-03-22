@@ -5,10 +5,13 @@ comments: false
 modified: 2017-07-09
 ---
 
-## Docker Meetup @eDreams March 2018
-[@chico_de_guzman](https://twitter.com/chico_de_guzman) and I got together again at [Madrid's docker meetup](https://www.meetup.com/Docker-Madrid/events/248220421) and talked about traditional, applications, containers, and how to leverage the power of native cloud services to run container based applications. 
+##  Just enough Docker( Madrid / Barcelona March 2018)
+[@chico_de_guzman](https://twitter.com/chico_de_guzman) and I got together again and talked about traditional, applications, containers, and how to leverage the power of native cloud services to run container based applications. We gave the talk at [Madrid's](https://www.meetup.com/Docker-Madrid/events/248220421) and [Barcelona's](https://www.meetup.com/docker-barcelona-spain/events/247733700) docker meetup.
 
-[Slides](/talks/resources/docker-meetup-madrid-march-2018.pdf)
+[Slides available here](/talks/resources/just-enough-docker.pdf)
+
+We also spoke at [Stuart's Barcelona office](https://medium.com/stuart-engineering/from-legacy-applications-to-docker-in-production-1f8c173d7622). This version of the talk is available in [their youtube channel](https://www.youtube.com/watch?v=JZvSShfYnp4).
+
 
 ## Docker for devops May 2017
 
