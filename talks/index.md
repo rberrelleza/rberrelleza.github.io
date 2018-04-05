@@ -5,6 +5,11 @@ comments: false
 modified: 2017-07-09
 ---
 
+##  Incidents and ChatOps (Atlassian User Group Barcelona, April 2018)
+Spoke at the [Atlassian User Group Barcelona April 2018](https://aug.atlassian.com/events/details/atlassian-barcelona-presents-atlassian-barcelonacreando-comunidad) event on how to leverage the power of the Atlassian suite to improve how your team responds to incidents. The talk was centered on how to use Jira, StatusPage, and Stride to develop a [chatops culture](https://www.atlassian.com/it-unplugged/chatops) and improve your team's response to incidents.
+
+[Slides available here](/talks/resources/chatops-and-incidents.pdf)
+
 ##  Just enough Docker( Madrid / Barcelona March 2018)
 [@chico_de_guzman](https://twitter.com/chico_de_guzman) and I got together again and talked about traditional, applications, containers, and how to leverage the power of native cloud services to run container based applications. We gave the talk at [Madrid's](https://www.meetup.com/Docker-Madrid/events/248220421) and [Barcelona's](https://www.meetup.com/docker-barcelona-spain/events/247733700) docker meetup.
 
