@@ -10,8 +10,10 @@ modified: 2015-11-25
 </figure>
 
 
-Hi, my name is Ramiro Berrelleza, welcome!
+Hi there :wave: !
 
-I'm curently the architect for Hipchat Data Center, out of Atlassian’s lovely San Francisco office. For almost a decade (wow, time flies when you’re having fun!) I’ve been building software that empowers developers to build castles out of thin air. I’m really interested in cloud computing, devices, internet of things, open web and on the team dynamics of software development.
+My name is Ramiro Berrelleza, a software developer based in San Francisco. I'm currently the architect of Hipchat Data Center, working out of Atlassian’s lovely San Francisco office. For almost a decade (wow, time flies when you’re having fun!) I’ve been building software that empowers developers to build castles out of thin air. Before Atlassian, I used to work at Elasticbox (now part of Centurylink) and Microsoft.
 
-This blog, content and opinions are my own.
+ I’m really interested in cloud computing, devices, internet of things, open web, the team dynamics of software development and inclusiveness in tech.
+
+This blog, content, and opinions are my own.
