@@ -5,6 +5,11 @@ comments: false
 modified: 2018-03-16
 ---
 
+## Cloud Native Development
+CND is a cli tool that helps you move your development workflow entirely to kubernetes, avoiding the time-consuming `docker build/push/pull/redeploy cycle`. 
+
+[Available on github](https://github.com/okteto/cnd)
+
 ## i2kit
 i2kit is a cli tool to deploy container based applications on the cloud. The tool will create a minimalistic, linuxkit-based VM with the application containers, generate a cloudformation template based on a yaml manifest and launch it. The goal is to offer the same type of features that kubernetes and docker's universal control plane offer, but with cloud native services, and without requiring a cluster.
 
