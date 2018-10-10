@@ -6,7 +6,7 @@ modified: 2017-07-09
 ---
 
 ## Cloud Native Development Workflows (Madrid Docker Meetup, October 2018)
-Spoke at the [Madrid Docker Meetup] (https://www.meetup.com/Docker-Madrid/events/254821562/) on the how the [okteto](https://okteto) team uses docker and kubernetes to be more efficient. We presented a new open source project (https://github.com/okteto/cnd) to make it easier to develop directly in kubernetes.
+Spoke at the [Madrid Docker Meetup](https://www.meetup.com/Docker-Madrid/events/254821562/) on the how the [okteto](https://okteto) team uses docker and kubernetes to be more efficient. We presented a new open source project (https://github.com/okteto/cnd) to make it easier to develop directly in kubernetes.
 
 [Slides available here](/talks/resources/docker-meetup-cloud-native-development.pdf)
 
