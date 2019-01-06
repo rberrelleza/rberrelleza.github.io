@@ -229,6 +229,7 @@ GEM
     sawyer (0.8.1)
       addressable (>= 2.3.5, < 2.6)
       faraday (~> 0.8, < 1.0)
+    stringex (2.8.5)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
@@ -243,6 +244,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  stringex
 
 BUNDLED WITH
    1.17.3
