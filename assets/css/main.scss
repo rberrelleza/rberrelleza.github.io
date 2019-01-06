@@ -1,29 +1,19 @@
 ---
-sitemap: false
+# If you use the haacked/haackbar Jekyll Theme, you do not need to add this file
+# unless you want to customize the CSS styles
+#
+# To customize the theme's CSS, copy this file to your site with the same directory
+# structure. Add your customizations.
 ---
 
-/*
- *
- *  HPSTR
- *
- *  Designer: Michael Rose
- *  Twitter: http://twitter.com/mmistakes
- *
-*/
+//
+// Common customizations
+// 
+$header-background-color: #3094df;
+$brand-color:      #9e9ab4;
+// 
+// $post-font-family: YOUR_FAVE_CONTENT_FONT;
+// $base-font-family: YOUR_FAVE_FONT;
 
-// Partials
-@import "variables";
-@import "mixins";
-@import "reset";
-@import "vendor/font-awesome/font-awesome";
-@import "vendor/magnific-popup/magnific-popup";
-@import "site";
-@import "typography";
-@import "pygments";
-@import "coderay";
-@import "gist";
-@import "grid";
-@import "elements";
-@import "animations";
-@import "dl-menu";
-@import "page";
+
+@import 'haackbar';

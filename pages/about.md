@@ -1,8 +1,9 @@
 ---
-layout: page
-title: About me
-comments: false
-modified: 2015-11-25
+title: "Hi, I'm Ramiro"
+nav_title: "About"
+description: "About Ramiro"
+include_nav: true
+permalink: /about/
 ---
 
 <figure>

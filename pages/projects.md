@@ -1,8 +1,9 @@
 ---
-layout: page
-title: Projects
-comments: false
-modified: 2018-03-16
+title: "Projects"
+nav_title: "Projects"
+description: "My projects"
+include_nav: true
+permalink: /projects/
 ---
 
 ## Cloud Native Development
