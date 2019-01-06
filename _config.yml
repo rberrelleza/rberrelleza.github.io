@@ -93,20 +93,24 @@ markdown: kramdown
 kramdown:
   hard_wrap: false
 exclude:
+  - .gitconfig
+  - .gitignore
+  - docker-compose.yml
+  - Dockerfile
   - Gemfile
   - Gemfile.lock
-  - lib
-  - node_modules
-  - README.md
   - Rakefile
-  - tmp
-  - package.json
-  - Gruntfile.js
-
+  - README.md
+keep_files: 
+  - images 
+  - talks
+  - robots.txt 
+  - favicon.ico
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-paginate
   - jekyll-include-cache
+  - jekyll-sitemap
 
 remote_theme: haacked/haackbar
