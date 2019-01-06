@@ -1,60 +1,116 @@
-title:            Ramiro Berrelleza
-description:      Code, software engineering and technology.
-disqus_shortname: ramiroberrelleza
-comments: false
-reading_time:     false
-words_per_minute: 200
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
-#url: "" # the base hostname & protocol for your site
-url: "https://ramiroberrelleza.com" # the base hostname & protocol for your site
+title: Ramiro Berrelleza
+subtitle: Code, software engineering and technology.
+author: Ramiro Berrelleza
+avatar_url: https://gravatar.com/avatar/9e23a341ace069bf45ba72f0fa9ef66c?size=160  # Should be 160x160px.
+description: > # this means to ignore newlines until "twitter_username:"
+  Hi I'm Ramiro! I'm a software engineer, and entrepeneur, a tinkerer and a latino (in no particular order).
+  I blog mostly about tech, my personal projects or stuff that excites me. Wecome!
+repository: rberrelleza/rberrelleza.github.io
 
-# Owner/author information
-owner:
-  name:           Ramiro Berrelleza
-  avatar:         ramiro.jpg
-  bio:            "Yet another developer from San Francisco"
-  email:          rberrelleza at gmail
-  # Social networking links used in footer. Update and remove as you like.
-  twitter: rberrelleza
-  github: rberrelleza
-  keybase: rberrelleza
-
-# Background image to be tiled on all pages
-background:
-
-# Analytics and webmaster tools stuff goes here
 google_analytics: UA-30384242-2
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/Los_Angeles
-future:      true
-highlighter: rouge
-markdown:    kramdown
-plugins:
-  - jekyll-sitemap
-sass:
-  sass_dir: _sass
-  style: compressed
+# contact
+contact:
+  email: rberrelleza@gmail.com  # Comment out this line if you don't want to expose your email.
+#  url: https://your-contact-url # Uncomment this to provide a contact form url instead of an email
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+# social links
+twitter_username: rberrelleza
+github_username:  rberrelleza
+rss: rss
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+#linkedin_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
 
-# Amount of post to show on home page
-paginate: 5
+# 
+# Subscribe Feed
+# 
+# By default, your site generates a subscription feed (RSS/Atom) at /feed.xml
+# Uncomment the next two lines to change the path.
+# feed:
+#   path: /atom.xml
 
+# If you use a feed publisher such as Feedburner, uncomment the next line
+# subscribe_rss: https://your-feedburner-url/
+
+# Homepage
+show_excerpts: true  # set to true to show excerpts on the homepage, otherwise full posts are shown
+
+# Comments
+# To enable comments, set the `enabled` field to true and supply either a Disqus short name or a Jekyll comments receiver
+comments:
+  enabled: true
+  show_count: true
+#  receiver: https://.../  # See https://haacked.com/archive/2018/06/24/comments-for-jekyll-blogs/ for more information.
+  disqus_shortname: ramiroberrelleza
+
+emptyArray: [] # Leave this here.
+
+# haackbar date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+haackbar:
+  date_format: "%b %-d, %Y"
+
+#
+# Jekyll Settings
+#
+permalink: /:categories/:title/
+paginate: 5 # number of posts per page
+page_group_size: 5 # number of pages to group by in the pagination.
+paginate_path: "/archive/page/:num"
+
+# Front matter defaults
+defaults:
+  -
+    scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: post
+      comments: true
+  -
+    scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: page
+      comments: false
+  -
+    scope:
+      path: "assets/pages"
+      type: "pages"
+    values:
+      layout: page
+      comments: false
+
+# Build settings
+markdown: kramdown
 kramdown:
-  auto_ids:       true
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
-  input:          GFM
-  hard_wrap:      false
-  footnote_nr:    1
-  show_warnings:  false
+  hard_wrap: false
+exclude:
+  - .gitconfig
+  - .gitignore
+  - docker-compose.yml
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+keep_files: 
+  - images 
+  - talks
+  - robots.txt 
+  - favicon.ico
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-include-cache
+  - jekyll-sitemap
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+remote_theme: haacked/haackbar

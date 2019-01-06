@@ -1,8 +1,9 @@
 ---
-layout: page
-title: About me
-comments: false
-modified: 2015-11-25
+title: "Hi, I'm Ramiro"
+nav_title: "About"
+description: "About Ramiro"
+include_nav: true
+permalink: /about/
 ---
 
 <figure>
@@ -16,4 +17,4 @@ My name is Ramiro Berrelleza, a software developer based in San Francisco. I'm c
 
  I’m really interested in cloud computing, devices, internet of things, open web, the team dynamics of software development and inclusiveness in tech.
 
-This blog, content, and opinions are my own.
+This blog, content, and opinions are my own. The blog is hosted on github-pages, and it uses the [haackbar](https://github.com/Haacked/haackbar) template.

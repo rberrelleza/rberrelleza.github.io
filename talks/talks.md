@@ -1,8 +1,9 @@
 ---
-layout: page
-title: Talks
-comments: false
-modified: 2017-07-09
+title: "Talks"
+nav_title: "Talks"
+description: "Talks I've given"
+include_nav: true
+permalink: /talks/
 ---
 
 ## Cloud Native Development Workflows (Madrid Docker Meetup, October 2018)
