@@ -10,6 +10,10 @@ CND is a cli tool that helps you move your development workflow entirely to kube
 
 [Available on github](https://github.com/okteto/cnd)
 
+<iframe src="https://ghbtns.com/github-btn.html?user=okteto&repo=cnd&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> 
+
+<iframe src="https://ghbtns.com/github-btn.html?user=okteto&repo=cnd&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+
 ## Slack-Stargazer
 
 Send a message to a slack channel when someone stars a github repository. Stars are a vanity metric, but it does give you a nice morale boost. I did this mostly to play around with the github API, slack and to try and develop something end-to-end on my mobile phone (close, but not quite there!)
@@ -42,10 +46,20 @@ An Amazon Echo skill that helps you figure out when the next MUNI is coming.
 
 ## fiveoneone
 
-Python library to consume transit data from http://511.org/
-You can get it [from github](https://github.com/rberrelleza/511-transit), or install it [from pypi](https://pypi.python.org/pypi/fiveoneone)
+Python library to consume transit data from http://511.org/. It allows you to get bus routes and arrival times. Build this as part of the development of [Where's my bus](#wheres-my-bus)
+
+[Available on github](https://github.com/rberrelleza/511-transit) and [pypi](https://pypi.python.org/pypi/fiveoneone)
+
+<iframe src="https://ghbtns.com/github-btn.html?user=rberrelleza&repo=511-transit&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> 
+
+<iframe src="https://ghbtns.com/github-btn.html?user=rberrelleza&repo=511-transit&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
 
 ## nose-xunitmp
 
 Nose plugin to add xunit like reporting to nosetests when running in multiprocess mode.
-You can get it [from github](https://github.com/rberrelleza/nose-xunitmp)
+
+[Available on github](https://github.com/rberrelleza/nose-xunitmp)
+
+<iframe src="https://ghbtns.com/github-btn.html?user=rberrelleza&repo=nose-xunitmp&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> 
+
+<iframe src="https://ghbtns.com/github-btn.html?user=rberrelleza&repo=nose-xunitmp&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
