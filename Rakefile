@@ -69,7 +69,7 @@ end
 
 desc "Run jekyll"
 task :run do
-  sh "jekyll serve -d /_site --watch --force_polling -H 0.0.0.0 -P 4000"
+  sh "jekyll serve -d /_site --watch --incremental -H 0.0.0.0 -P 4000"
 end
 
 desc "Update dependencies"
