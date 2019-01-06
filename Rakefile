@@ -72,7 +72,12 @@ task :run do
   sh "jekyll serve -d /_site --watch --force_polling -H 0.0.0.0 -P 4000"
 end
 
-task :default => [:spec]
+desc "Update dependencies"
+task :update do
+  sh "bundle update"
+end
+
+task :default => [:run]
 
 def get_stdin(message)
   print message

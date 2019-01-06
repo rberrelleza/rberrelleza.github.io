@@ -6,6 +6,7 @@ RUN apk --update add --virtual build_deps \
 RUN apk add git \
   && mkdir -p /usr/src/app 
 
+ENV GITHUB_GEM_VERSION=193
 COPY Gemfile Gemfile
 COPY Gemfile.lock Gemfile.lock
 
