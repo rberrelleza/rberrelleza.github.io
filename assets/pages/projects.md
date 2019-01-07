@@ -27,6 +27,11 @@ i2kit is a cli tool to deploy container based applications on the cloud. The too
 
 [Available on github](https://github.com/pchico83/i2kit)
 
+<iframe src="https://ghbtns.com/github-btn.html?user=pchico83&repo=i2kit&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> 
+
+<iframe src="https://ghbtns.com/github-btn.html?user=pchico83&repo=i2kit&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+
+
 ## Bitbucket pull requests
 A VSCode extension to start pull requests directly form the IDE.
 
