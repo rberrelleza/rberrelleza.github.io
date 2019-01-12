@@ -39,6 +39,8 @@ A VSCode extension to start pull requests directly form the IDE.
 
 [Available on bitbucket](https://bitbucket.org/rberrelleza/bitbucket-pull-requests)
 
+![VSCode marketplace downloads](https://img.shields.io/vs-marketplace/d/ramiroberrelleza.bitbucket-pull-requests.svg?style=for-the-badge)
+
 ## SE Radio podcast player
 
 An Amazon Echo skill to play episodes of [SE Radio](http://www.se-radio.net).
