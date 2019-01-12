@@ -28,6 +28,8 @@ Spoke at the [Atlassian User Group Barcelona April 2018](https://aug.atlassian.c
 
 We also spoke at [Stuart's Barcelona office](https://medium.com/stuart-engineering/from-legacy-applications-to-docker-in-production-1f8c173d7622). This version of the talk is available in [their youtube channel](https://www.youtube.com/watch?v=JZvSShfYnp4).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JZvSShfYnp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Docker for devops May 2017
 
