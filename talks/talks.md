@@ -6,6 +6,11 @@ include_nav: true
 permalink: /talks/
 ---
 
+## CND demo (SIG-App meeting, January 2019)
+Demoed how easy it is to develop a kuberentes-native applications directly in the cluster with [CND](https://github.com/okteto/cnd) in one of the SIG-App weekly meetings. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UmDAGrdovRo?start=950" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Cloud Native Development Workflows (Madrid Docker Meetup, October 2018)
 Spoke at the [Madrid Docker Meetup](https://www.meetup.com/Docker-Madrid/events/254821562/) on the how the [okteto](https://okteto) team uses docker and kubernetes to be more efficient. We presented a new open source project (https://github.com/okteto/cnd) to make it easier to develop directly in kubernetes.
 
