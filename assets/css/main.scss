@@ -17,3 +17,15 @@ $brand-color:      #9e9ab4;
 
 
 @import 'haackbar';
+
+.header {
+    background-color: #3094df;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    padding: 1%;
+    position: fixed;
+    top: 0;
+    width: 350px;
+    z-index: 1;
+}
