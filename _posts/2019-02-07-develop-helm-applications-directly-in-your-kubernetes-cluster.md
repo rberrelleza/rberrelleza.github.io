@@ -5,7 +5,7 @@ modified: 2019-02-07 07:01:05 +0000
 categories: posts
 ---
 
-> This post was originally published at https://medium.com/@macropus/export-your-medium-posts-to-markdown-b5ccc8cb0050
+> This post was originally [published here](https://medium.com/okteto/develop-helm-applications-directly-in-your-kubernetes-cluster-cb385aa8328f).
 
 Deploying applications in Kubernetes can be complicated. Even the simplest application will require creating a series of interdependent components (e.g.namespace, RBAC rules, ingress, services, deployments, pods, secrets ...), each with one or more YAML manifests.
 
