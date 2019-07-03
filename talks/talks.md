@@ -6,6 +6,11 @@ include_nav: true
 permalink: /talks/
 ---
 
+## Cloud Native Development  (London Kubernetes Meetup, July 2019)
+Spoke at the [London Kubernetes Meetup](https://www.meetup.com/Docker-Madrid/events/254821562/) on the how to develop cloud native applications directly in Kubernetes with [okteto](https://github.com/okteto/okteto)
+
+[Slides available here](/talks/resources/kubernetes-london-meetup-kubeflare.pdf)
+
 ## CND demo (SIG-App meeting, January 2019)
 Demoed how easy it is to develop a kuberentes-native applications directly in the cluster with [CND](https://github.com/okteto/cnd) in one of the SIG-App weekly meetings. 
 
