@@ -69,7 +69,7 @@ end
 
 desc "Run jekyll"
 task :run do
-  sh "bundle exec jekyll serve -H 0.0.0.0"
+  sh "bundle exec jekyll serve --host 0.0.0.0 --port 8080"
 end
 
 desc "Update dependencies"

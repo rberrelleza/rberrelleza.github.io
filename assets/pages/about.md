@@ -11,9 +11,9 @@ permalink: /about/
 </figure>
 
 
-Hi there :wave: !
+Hi there 👋 !
 
-My name is Ramiro Berrelleza. I'm the founder and CEO of [Okteto](https://okteto.com), where we're busy re-imagining the developer experience for cloud native applications. For over a decade (wow, time flies when you’re having fun!) I’ve been building software that empowers developers to build castles out of thin air. Before Okteto, I built enterprise chat products at Atlassian, application lifecycle management tools at Elasticbox (now part of Centurylink) and cloud services at Microsoft Azure.
+My name is Ramiro Berrelleza. I'm the founder and CEO of [Okteto](https://okteto.com), where we're busy re-imagining the developer experience for cloud native applications. For over a decade (wow, time flies when you’re having fun!) I’ve been building software that empowers developers to build castles out of thin air. Before Okteto, I built enterprise chat products at [Atlassian](https://atlassian.com), application lifecycle management tools at [Elasticbox](https://elasticbox.com) (now part of Centurylink) and [cloud services](https://azure.microsoft.com/en-us/services/service-bus/) at [Microsoft Azure](https://azure.microsoft.com).
 
  I’m really interested in cloud computing, devices, internet of things, open web, developer tools, the team dynamics of software development and inclusiveness in tech.
 

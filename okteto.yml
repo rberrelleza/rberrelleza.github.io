@@ -1,0 +1,5 @@
+name: rberrelleza-github-io
+image: okteto/ruby:2
+command:
+- bash
+workdir: /usr/src/app
