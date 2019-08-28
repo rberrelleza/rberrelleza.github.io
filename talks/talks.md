@@ -6,6 +6,16 @@ include_nav: true
 permalink: /talks/
 ---
 
+## Cloud-Native and Kubernetes Meetup in Silicon Valley (Santa Clara, August 2019)
+
+Spoke about best practices on how to develop Cloud Native Applications and gave a demo of how to use Okteto and Okteto Cloud to have an agile development workflow in Kubernetes.
+
+[Slides available here](/talks/resources/cloud-native-meetup-silicon-valley-okteto.pdf)
+
+### Screencast of the demo
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6nX0-dfSUI4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Cloud Native Development  (London Kubernetes Meetup, July 2019)
 Spoke at the [London Kubernetes Meetup](https://www.meetup.com/Docker-Madrid/events/254821562/) on the how to develop cloud native applications directly in Kubernetes with [okteto](https://github.com/okteto/okteto)
 

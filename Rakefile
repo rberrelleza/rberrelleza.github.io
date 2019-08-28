@@ -68,7 +68,7 @@ task :new_page, :title do |t, args|
 end
 
 desc "Run jekyll"
-task :run do
+task :start do
   sh "bundle exec jekyll serve --host 0.0.0.0 --port 8080"
 end
 
