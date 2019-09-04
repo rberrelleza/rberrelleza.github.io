@@ -17,7 +17,7 @@ Spoke about best practices on how to develop Cloud Native Applications and gave 
 
 
 ## Cloud Native Development  (London Kubernetes Meetup, July 2019)
-Spoke at the [London Kubernetes Meetup](https://www.meetup.com/Docker-Madrid/events/254821562/) on the how to develop cloud native applications directly in Kubernetes with [okteto](https://github.com/okteto/okteto)
+Spoke at the [London Kubernetes Meetup](https://www.meetup.com/Kubernetes-London/events/262636460/) on the how to develop cloud native applications directly in Kubernetes with [okteto](https://github.com/okteto/okteto)
 
 [Slides available here](/talks/resources/kubernetes-london-meetup-kubeflare.pdf)
 
