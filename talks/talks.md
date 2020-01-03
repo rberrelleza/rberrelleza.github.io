@@ -6,6 +6,14 @@ include_nav: true
 permalink: /talks/
 ---
 
+## Painless Serverless Function Development In Kubernetes (Serverless Practitioner Summit - Kubecon San Diego, December 2019)
+
+Gave a talk in the Serverless Practitioner Summit on how you can use [https://github.com/okteto/okteto](Okteto) and [https://github.com/openfaas/faas](OpenFaas) to have a great development experience when building serverless applications.
+
+[Slides available here](/talks/resources/painless-serverless-development-with-kubernetes.pdf)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yx1nGH2zh0k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Cloud-Native and Kubernetes Meetup in Silicon Valley (Santa Clara, August 2019)
 
 Spoke about best practices on how to develop Cloud Native Applications and gave a demo of how to use Okteto and Okteto Cloud to have an agile development workflow in Kubernetes.
@@ -22,7 +30,7 @@ Spoke at the [London Kubernetes Meetup](https://www.meetup.com/Kubernetes-London
 [Slides available here](/talks/resources/kubernetes-london-meetup-kubeflare.pdf)
 
 ## CND demo (SIG-App meeting, January 2019)
-Demoed how easy it is to develop a kuberentes-native applications directly in the cluster with [CND](https://github.com/okteto/cnd) in one of the SIG-App weekly meetings. 
+Demoed how easy it is to develop a Kubernetes-native applications directly in the cluster with [CND](https://github.com/okteto/cnd) in one of the SIG-App weekly meetings. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UmDAGrdovRo?start=950" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
