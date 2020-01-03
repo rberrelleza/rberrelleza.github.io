@@ -8,7 +8,7 @@ permalink: /talks/
 
 ## Painless Serverless Function Development In Kubernetes (Serverless Practitioner Summit - Kubecon San Diego, December 2019)
 
-Gave a talk in the Serverless Practitioner Summit on how you can use [https://github.com/okteto/okteto](Okteto) and [https://github.com/openfaas/faas](OpenFaas) to have a great development experience when building serverless applications.
+Gave a talk in the Serverless Practitioner Summit on how you can use [Okteto](https://github.com/okteto/okteto) and [OpenFaaS](https://github.com/openfaas/faas) to have a great development experience when building serverless applications.
 
 [Slides available here](/talks/resources/painless-serverless-development-with-kubernetes.pdf)
 
