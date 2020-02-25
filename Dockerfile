@@ -1,4 +1,4 @@
-FROM ruby:2.3-alpine
+FROM ruby:2-alpine
 
 RUN apk --update add --virtual build_deps \
     build-base ruby-dev libc-dev linux-headers
@@ -6,7 +6,7 @@ RUN apk --update add --virtual build_deps \
 RUN apk add git \
   && mkdir -p /usr/src/app 
 
-ENV GITHUB_GEM_VERSION=193
+ENV GITHUB_GEM_VERSION=204
 COPY Gemfile Gemfile
 COPY Gemfile.lock Gemfile.lock
 

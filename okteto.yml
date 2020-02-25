@@ -3,3 +3,7 @@ image: okteto/ruby:2
 command:
 - bash
 workdir: /usr/src/app
+resources:
+  limits:
+    cpu: 1
+    memory: "1Gi"
