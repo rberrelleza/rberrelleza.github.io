@@ -14,6 +14,25 @@ Talked about Serverless programing, how does it fit in Kubernetes, and how to us
 
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/Yx1nGH2zh0k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
 
+## Add Cloud Services to your Development Environment (Crossplane Community Day - June 2020)
+
+[Crossplane](http://crossplane.io/), for those of you unfamiliar with it, is an open source Kubernetes add-on that supercharges your Kubernetes clusters enabling you to provision and manage infrastructure, services, and applications from kubectl. In this talk, I give a demo of how to use Crossplane and Okteto together to create development environments that include Cloud and Kubernetes services.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pH1PJkJqjaE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The code for the demo [is available here](https://github.com/rberrelleza/crossplane-community-day-2020), if you want to try it out yourself. I’m biased, but this is one of my favorite demos.
+
+
+## Don't Build and Push, Move Your Inner Loop to Your cluster! (AllTheTalks.online, April 2020)
+
+Snyk (and friends) organized AllTheTalks.online, a 23.9999 hour online-only conference on all things DevOps, Development & Security. Which doubled as a fundraiser for COVID19 victims.
+
+I talked about [Okteto](https://github.com/okteto/okteto) and how to use it to simplify the development of Cloud Native applications. The talked covered the history of the project, community use cases and a demo of how to find and fix a bug on micro services-based app directly in Kubernetes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RqnltjxGtPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The slides are [available here](https://okteto.com/blog/dont-build-and-push/slides.pdf)
+
 ## Painless Serverless Function Development In Kubernetes (Serverless Practitioner Summit - Kubecon San Diego, December 2019)
 
 Gave a talk in the Serverless Practitioner Summit on how you can use [Okteto](https://github.com/okteto/okteto) and [OpenFaaS](https://github.com/openfaas/faas) to have a great development experience when building serverless applications.
