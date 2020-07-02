@@ -6,6 +6,14 @@ include_nav: true
 permalink: /talks/
 ---
 
+## Serverless in Kubernetes (HackMadrid - July 2020)
+
+Talked about Serverless programing, how does it fit in Kubernetes, and how to use [OpenFaaS](https://github.com/openfaas/faas) to get started with serverless programming.
+
+[Slides available here](/talks/resources/serverless-in-kubernetes.pdf)
+
+<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/Yx1nGH2zh0k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+
 ## Painless Serverless Function Development In Kubernetes (Serverless Practitioner Summit - Kubecon San Diego, December 2019)
 
 Gave a talk in the Serverless Practitioner Summit on how you can use [Okteto](https://github.com/okteto/okteto) and [OpenFaaS](https://github.com/openfaas/faas) to have a great development experience when building serverless applications.
