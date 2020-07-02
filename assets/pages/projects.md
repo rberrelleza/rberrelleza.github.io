@@ -6,10 +6,10 @@ include_nav: true
 permalink: /projects/
 ---
 
-## Cloud Native Development
-CND is a cli tool that helps you move your development workflow entirely to kubernetes, avoiding the time-consuming `docker build/push/pull/redeploy cycle`. 
+## Okteto
+Okteto is a cli tool that helps you move your development workflow entirely to kubernetes, avoiding the time-consuming `docker build/push/pull/redeploy cycle`. 
 
-[Available on github](https://github.com/okteto/cnd)
+[Available on github](https://github.com/okteto/okteto)
 
 <iframe src="https://ghbtns.com/github-btn.html?user=okteto&repo=cnd&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> 
 
