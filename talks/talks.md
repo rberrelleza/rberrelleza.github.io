@@ -10,9 +10,12 @@ permalink: /talks/
 
 Talked about Serverless programing, how does it fit in Kubernetes, and how to use [OpenFaaS](https://github.com/openfaas/faas) to get started with serverless programming.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vdbmJ0tX2ko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+*This talk is in Spanish*
+
 [Slides available here](/talks/resources/serverless-in-kubernetes.pdf)
 
-<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/Yx1nGH2zh0k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
 
 ## Add Cloud Services to your Development Environment (Crossplane Community Day - June 2020)
 
