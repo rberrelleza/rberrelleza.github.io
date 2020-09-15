@@ -6,6 +6,20 @@ include_nav: true
 permalink: /talks/
 ---
 
+## WebAssembly + OpenFaas, the Universal Runtime for Serverless Functions - (Serverless Practitioner Summit - Kubecon Amsterdam, July 2020)
+
+WebAssembly was initially created as a sandbox for the Web. It was designed to be lightweight, portable and compatible with most programming languages. Given these characteristics, it's no surprise that a lot of people are starting to take it outside the browser and into the realm of desktop and cloud applications.
+
+In this talk I discuss why WebAssembly is perfectly suited as a runtime for serverless functions. I talk about prior art, how WebAssembly can be used to build serverless functions, how it compares with Docker and other runtimes and how we can leverage it to make our functions more portable and faster to start.
+
+I finish with a demo of how we can build functions in different languages, compile them to portable WebAssembly binaries and then use OpenFaaS to manage and deploy them to Kubernetes, with the help of Krustlet.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/so2dGQGKTpE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The code for the demo [is available here](https://github.com/rberrelleza/openfaas-plus-webassembly), if you want to try it out yourself. 
+
+[Slides available here](/talks/resources/webassembly-plus-openfaas.pdf)
+
 ## Serverless in Kubernetes (HackMadrid - July 2020)
 
 Talked about Serverless programing, how does it fit in Kubernetes, and how to use [OpenFaaS](https://github.com/openfaas/faas) to get started with serverless programming.
