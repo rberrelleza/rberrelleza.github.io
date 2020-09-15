@@ -1,0 +1,3 @@
+deploy:
+- helm upgrade --install blog okteto/theia --set repository=https://github.com/rberrelleza/rberrelleza.github.io
+- okteto push
