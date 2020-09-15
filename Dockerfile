@@ -14,6 +14,6 @@ RUN bundler install
 
 WORKDIR /usr/src/app
 
-EXPOSE 4000 80
+EXPOSE 8080
 ENTRYPOINT [ "rake" ]
 CMD run
