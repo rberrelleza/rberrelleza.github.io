@@ -18,4 +18,4 @@ COPY . .
 
 EXPOSE 8080
 ENTRYPOINT [ "rake" ]
-CMD run
+CMD ["start"]
