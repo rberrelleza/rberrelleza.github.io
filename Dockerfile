@@ -6,13 +6,15 @@ RUN apk --update add --virtual build_deps \
 RUN apk add git \
   && mkdir -p /usr/src/app 
 
+WORKDIR /usr/src/app
+
 ENV GITHUB_GEM_VERSION=207
 COPY Gemfile Gemfile
 COPY Gemfile.lock Gemfile.lock
 
 RUN bundler install 
 
-WORKDIR /usr/src/app
+COPY . .
 
 EXPOSE 8080
 ENTRYPOINT [ "rake" ]
